@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="2023_Spring_I2PII_Mini_Project_2" targetName="2023_Spring_I2PII_Mini_Project_2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf23c352-09e8-412d-8972-fe8576832755" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/2023-Spring-I2PII-Mini_Project_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Allegro5Exception.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Allegro5Exception.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AudioHelper.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AudioHelper.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Base.lproj/Main.storyboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collider.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collider.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DirtyEffect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DirtyEffect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExplosionEffect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExplosionEffect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameEngine.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameEngine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Group.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Group.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IControl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IControl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IObject.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IScene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IScene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageButton.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageButton.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Label.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Label.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoseScene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoseScene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NTHU_I2P_MiniProject2.entitlements.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayScene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlayScene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlugGunTurret.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlugGunTurret.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Point.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Point.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedNormalEnemy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RedNormalEnemy.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slider.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sprite.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StageSelectScene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StageSelectScene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StartScene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StartScene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turret.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turret.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TurretButton.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TurretButton.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WinScene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WinScene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WoodBullet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WoodBullet.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/astronomia.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/explosion.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/gun.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/happy.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/laser.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/lose.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/missile.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/play.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/select.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/shockwave.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/audios/win.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/enemy1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/enemy2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/enemy3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/pirulen.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/lose/benjamin-happy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/benjamin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/bullet-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dice-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dice-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dice-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dice-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dice-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dice-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dirty-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dirty-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/dirty-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-3-head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/enemy-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/explosion-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/explosion-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/explosion-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/explosion-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/explosion-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/light-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/shockwave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/shoot-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/shoot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/shoot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/shoot-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/target-invalid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/tower-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/turret-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/turret-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/turret-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/turret-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/turret-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/turret-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/turret-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/stage-select/bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/stage-select/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/stage-select/end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/stage-select/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/stage-select/slider-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/stage-select/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/start_scene/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/start_scene/out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/win/benjamin-sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/win/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/win/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/map1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/map2.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectId" id="2PdKAjQ2VYh8n2f5G1fEH6Ju0iI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="2023_Spring_I2PII_Mini_Project_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2023_Spring_I2PII_Mini_Project_2" TARGET_NAME="2023_Spring_I2PII_Mini_Project_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2023_Spring_I2PII_Mini_Project_2" RUN_TARGET_NAME="2023_Spring_I2PII_Mini_Project_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf23c352-09e8-412d-8972-fe8576832755" name="Changes" comment="" />
+      <created>1683781376933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683781376933</updated>
+      <workItem from="1683781378267" duration="1216000" />
+      <workItem from="1683782638338" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,3 @@
+/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
