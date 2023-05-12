@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 file (GLOB
         TD_SRC
         CONFIGURE_DEPENDS
-        "*.cpp"
+        "src/*.cpp"
 )
 
 add_executable(2023_Spring_I2PII_Mini_Project_2 ${TD_SRC})
