@@ -38,6 +38,7 @@ Enemy::Enemy(std::string img, float x, float y, float radius, float speed, float
 }
 void Enemy::Hit(float damage) {
 	hp -= damage;
+    Slow(0.5, 3);
 	if (hp <= 0) {
 		OnExplode();
 		// Remove all turret's reference to target.
@@ -49,6 +50,7 @@ void Enemy::Hit(float damage) {
 		getPlayScene()->EnemyGroup->RemoveObject(objectIterator);
 		AudioHelper::PlayAudio("explosion.wav");
 	}
+
 }
 void Enemy::UpdatePath(const std::vector<std::vector<int>>& mapDistance) {
 	int x = static_cast<int>(floor(Position.x / PlayScene::BlockSize));
@@ -127,7 +129,7 @@ void Enemy::Draw() const {
 }
 void Enemy::Slow(float slowFactor, float slowTime) {
 	speed = maxSpeed * slowFactor;
-	slowRemainTime = slowTime;
+    slowRemainTime = slowTime;
 }
 void Enemy::SlowEffect(float deltaTime) {
 	if (slowRemainTime > 0) {

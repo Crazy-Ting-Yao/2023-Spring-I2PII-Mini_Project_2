@@ -18,6 +18,7 @@
 #include "include/Label.hpp"
 // Turret
 #include "include/PlugGunTurret.hpp"
+#include "include/MachineGun.hpp"
 #include "include/Plane.hpp"
 // Enemy
 #include "include/RedNormalEnemy.hpp"
@@ -27,6 +28,7 @@
 #include "include/Turret.hpp"
 #include "include/TurretButton.hpp"
 #include "include/LOG.hpp"
+#include "include/DiceEnemy.hpp"
 
 bool PlayScene::DebugMode = false;
 const std::vector<Engine::Point> PlayScene::directions = { Engine::Point(-1, 0), Engine::Point(0, -1), Engine::Point(1, 0), Engine::Point(0, 1) };
@@ -36,7 +38,7 @@ const float PlayScene::DangerTime = 7.61;
 const Engine::Point PlayScene::SpawnGridPoint = Engine::Point(-1, 0);
 const Engine::Point PlayScene::EndGridPoint = Engine::Point(MapWidth, MapHeight - 1);
 // TODO 5 (2/3): Set the cheat code correctly.
-const std::vector<int> PlayScene::code = { ALLEGRO_KEY_UP };
+const std::vector<int> PlayScene::code = { ALLEGRO_KEY_UP , ALLEGRO_KEY_DOWN, ALLEGRO_KEY_LEFT, ALLEGRO_KEY_RIGHT, ALLEGRO_KEY_LEFT, ALLEGRO_KEY_RIGHT, ALLEGRO_KEY_ENTER };
 Engine::Point PlayScene::GetClientSize() {
 	return Engine::Point(MapWidth * BlockSize, MapHeight * BlockSize);
 }
@@ -81,6 +83,7 @@ void PlayScene::Initialize() {
 void PlayScene::Terminate() {
 	AudioHelper::StopBGM(bgmId);
 	AudioHelper::StopSample(deathBGMInstance);
+    AudioHelper::StopSample(bgmInstance);
 	deathBGMInstance = std::shared_ptr<ALLEGRO_SAMPLE_INSTANCE>();
 	IScene::Terminate();
 }
@@ -136,6 +139,7 @@ void PlayScene::Update(float deltaTime) {
 		if (enemyWaveData.empty()) {
 			if (EnemyGroup->GetObjects().empty()) {
 				// Free resources.
+                /*
 				delete TileMapGroup;
 				delete GroundEffectGroup;
 				delete DebugIndicatorGroup;
@@ -145,7 +149,8 @@ void PlayScene::Update(float deltaTime) {
 				delete EffectGroup;
 				delete UIGroup;
 				delete imgTarget;
-                Engine::GameEngine::GetInstance().ChangeScene("win-scene");
+                */
+                Engine::GameEngine::GetInstance().ChangeScene("win");
 			}
 			continue;
 		}
@@ -161,6 +166,9 @@ void PlayScene::Update(float deltaTime) {
 			EnemyGroup->AddNewObject(enemy = new RedNormalEnemy(SpawnCoordinate.x, SpawnCoordinate.y));
 			break;
 		// TODO 2 (2/3): You need to modify 'resources/enemy1.txt', or 'resources/enemy2.txt' to spawn the new enemy.
+        case 2:
+            EnemyGroup->AddNewObject(enemy = new DiceEnemy(SpawnCoordinate.x, SpawnCoordinate.y));
+            break;
 		// The format is "[EnemyId] [TimeDelay] [Repeat]".
 		// TODO 2 (3/3): Enable the creation of the new enemy.
 		default:
@@ -255,12 +263,24 @@ void PlayScene::OnKeyDown(int keyCode) {
 	IScene::OnKeyDown(keyCode);
 	if (keyCode == ALLEGRO_KEY_TAB) {
 		// TODO 5 (1/3): Set Tab as a code to active / de-active the debug mode.
+        DebugMode = !DebugMode;
 	}
 	else {
 		keyStrokes.push_back(keyCode);
 		if (keyStrokes.size() > code.size())
 			keyStrokes.pop_front();
 		// TODO 5 (3/3): Check whether the input sequence corresponds to the code. If so, active a plane and earn 10000 money.
+        std::list<int>::iterator it = keyStrokes.begin();
+        bool flag = true;
+        for(int i = 0; i < code.size(); i++) {
+            if (*it != code[i])
+                flag = false;
+            else it++;
+        }
+        if (flag){
+            EffectGroup->AddNewObject(new Plane());
+            money += 10000;
+        }
         // Active a plane : EffectGroup->AddNewObject(new Plane());
 		// Earn money : money += 10000;
 	}
@@ -270,6 +290,7 @@ void PlayScene::OnKeyDown(int keyCode) {
 	}
 	// TODO 3 (5/5): Make the W key to create the new turret.
 	else if (keyCode == ALLEGRO_KEY_W) {
+        UIBtnClicked(1);
 		// Hotkey for new turret.
 	}
 	else if (keyCode >= ALLEGRO_KEY_0 && keyCode <= ALLEGRO_KEY_9) {
@@ -286,7 +307,7 @@ void PlayScene::OnKeyDown(int keyCode) {
 	}
 }
 void PlayScene::Hit() {
-	UILives->Text = std::string("Life ") + std::to_string(lives--);
+	UILives->Text = std::string("Life ") + std::to_string(--lives);
 	if (lives <= 0) {
 		Engine::GameEngine::GetInstance().ChangeScene("lose");
 	}
@@ -355,7 +376,7 @@ void PlayScene::ConstructUI() {
 	// Buttons
 	ConstructButton(0, "play/turret-6.png", PlugGunTurret::Price);
 	// TODO 3 (3/5): Create a button to support constructing the new turret.
-    
+    ConstructButton(1, "play/turret-1.png", MachineGun::Price);
 	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;
 	int h = Engine::GameEngine::GetInstance().GetScreenSize().y;
 	int shift = 135 + 25;
@@ -383,6 +404,8 @@ void PlayScene::UIBtnClicked(int id) {
 	if (id == 0 && money >= PlugGunTurret::Price) 
 		preview = new PlugGunTurret(0, 0);
 	// TODO 3 (4/5): On the new turret button callback, create the new turret.
+    else if (id == 1 && money >= MachineGun::Price)
+        preview = new MachineGun(0, 0);
 	if (!preview)
 		return;
 	preview->Position = Engine::GameEngine::GetInstance().GetMousePosition();
