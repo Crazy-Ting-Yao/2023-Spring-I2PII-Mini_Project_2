@@ -7,42 +7,88 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2
 set(OLD_GLOB
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Allegro5Exception.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/AudioHelper.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Collider.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/DiceEnemy.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/DiceTwoEnemy.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/DirtyEffect.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/ExplosionEffect.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/FireBullet.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/GameEngine.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Group.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/IControl.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/IObject.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/IScene.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Image.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/ImageButton.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/LOG.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Label.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/LoseScene.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/MachineGun.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Plane.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/PlayScene.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/PlugGunTurret.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Point.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/RedNormalEnemy.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Resources.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/SettingScene.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/ShootEffect.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Slider.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Sprite.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/StageSelectScene.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/StartScene.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/TurretButton.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/WinScene.cpp"
-  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/WoodBullet.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/main.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# TD_SRC at CMakeLists.txt:6 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/*.cpp")
+set(OLD_GLOB
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/Bullet.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/FireBullet.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/WoodBullet.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# TD_SRC at CMakeLists.txt:6 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Effect/*.cpp")
+set(OLD_GLOB
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Effect/DirtyEffect.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Effect/ExplosionEffect.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Effect/ShootEffect.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# TD_SRC at CMakeLists.txt:6 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/*.cpp")
+set(OLD_GLOB
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceEnemy.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceTwoEnemy.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/Enemy.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/RedNormalEnemy.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# TD_SRC at CMakeLists.txt:6 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/*.cpp")
+set(OLD_GLOB
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/IScene.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/LoseScene.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/PlayScene.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/SettingScene.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/StageSelectScene.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/StartScene.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/WinScene.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# TD_SRC at CMakeLists.txt:6 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/*.cpp")
+set(OLD_GLOB
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/DoubleMachineGun.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/MachineGun.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/Plane.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/PlugGunTurret.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/Turret.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/TurretButton.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

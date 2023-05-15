@@ -13,7 +13,7 @@
 
 #include "include/Allegro5Exception.hpp"
 #include "include/GameEngine.hpp"
-#include "include/IScene.hpp"
+#include "include/Scene/IScene.hpp"
 #include "include/LOG.hpp"
 #include "include/Point.hpp"
 #include "include/Resources.hpp"

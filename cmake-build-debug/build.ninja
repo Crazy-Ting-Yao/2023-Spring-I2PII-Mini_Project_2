@@ -60,12 +60,26 @@ build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/AudioHelper.cpp.o: CXX
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/Bullet.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/Bullet.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/Bullet.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/FireBullet.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/FireBullet.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/FireBullet.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/WoodBullet.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/WoodBullet.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/WoodBullet.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet
 
 build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Collider.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Collider.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
   DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Collider.cpp.o.d
@@ -74,47 +88,54 @@ build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Collider.cpp.o: CXX_CO
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceEnemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/DiceEnemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceEnemy.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/DirtyEffect.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Effect/DirtyEffect.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/DirtyEffect.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceTwoEnemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/DiceTwoEnemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceTwoEnemy.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ExplosionEffect.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Effect/ExplosionEffect.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ExplosionEffect.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DirtyEffect.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/DirtyEffect.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DirtyEffect.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ShootEffect.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Effect/ShootEffect.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ShootEffect.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceEnemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceEnemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceEnemy.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ExplosionEffect.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/ExplosionEffect.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ExplosionEffect.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceTwoEnemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceTwoEnemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceTwoEnemy.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/FireBullet.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/FireBullet.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/FireBullet.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/Enemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/Enemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/Enemy.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/RedNormalEnemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/RedNormalEnemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/RedNormalEnemy.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy
 
 build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/GameEngine.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/GameEngine.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
   DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/GameEngine.cpp.o.d
@@ -139,13 +160,6 @@ build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IControl.cpp.o: CXX_CO
 
 build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IObject.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/IObject.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
   DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IObject.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
-
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/IScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IScene.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
@@ -179,50 +193,8 @@ build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Label.cpp.o: CXX_COMPI
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/LoseScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/LoseScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/LoseScene.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
-
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/MachineGun.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/MachineGun.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/MachineGun.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
-
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Plane.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Plane.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Plane.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
-
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlayScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/PlayScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlayScene.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
-
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlugGunTurret.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/PlugGunTurret.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlugGunTurret.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
-
 build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Point.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Point.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
   DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Point.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
-  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
-
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/RedNormalEnemy.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/RedNormalEnemy.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/RedNormalEnemy.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
@@ -235,19 +207,54 @@ build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Resources.cpp.o: CXX_C
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/SettingScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/SettingScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/SettingScene.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/IScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/IScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/IScene.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ShootEffect.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/ShootEffect.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ShootEffect.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/LoseScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/LoseScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/LoseScene.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/PlayScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/PlayScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/PlayScene.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/SettingScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/SettingScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/SettingScene.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StageSelectScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/StageSelectScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StageSelectScene.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StartScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/StartScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StartScene.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene
+
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/WinScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Scene/WinScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/WinScene.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene
 
 build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Slider.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Slider.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
   DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Slider.cpp.o.d
@@ -263,47 +270,47 @@ build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Sprite.cpp.o: CXX_COMP
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/StageSelectScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/StageSelectScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/StageSelectScene.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/DoubleMachineGun.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/DoubleMachineGun.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/DoubleMachineGun.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/StartScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/StartScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/StartScene.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/MachineGun.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/MachineGun.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/MachineGun.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Plane.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/Plane.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Plane.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/TurretButton.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/TurretButton.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/TurretButton.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/PlugGunTurret.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/PlugGunTurret.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/PlugGunTurret.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WinScene.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/WinScene.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WinScene.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Turret.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/Turret.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Turret.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret
 
-build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WoodBullet.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/WoodBullet.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
-  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WoodBullet.cpp.o.d
+build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/TurretButton.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/TurretButton.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
+  DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/TurretButton.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   INCLUDES = -I/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2 -I/usr/local/include
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret
 
 build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/main.cpp.o: CXX_COMPILER__2023_Spring_I2PII_Mini_Project_2_Debug /Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/main.cpp || cmake_object_order_depends_target_2023_Spring_I2PII_Mini_Project_2
   DEP_FILE = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/main.cpp.o.d
@@ -320,7 +327,7 @@ build CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/main.cpp.o: CXX_COMPIL
 #############################################
 # Link the executable 2023_Spring_I2PII_Mini_Project_2
 
-build 2023_Spring_I2PII_Mini_Project_2: CXX_EXECUTABLE_LINKER__2023_Spring_I2PII_Mini_Project_2_Debug CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Allegro5Exception.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/AudioHelper.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Collider.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceEnemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceTwoEnemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DirtyEffect.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ExplosionEffect.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/FireBullet.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/GameEngine.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Group.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IControl.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IObject.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Image.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ImageButton.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/LOG.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Label.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/LoseScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/MachineGun.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Plane.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlayScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlugGunTurret.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Point.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/RedNormalEnemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Resources.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/SettingScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ShootEffect.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Slider.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Sprite.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/StageSelectScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/StartScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/TurretButton.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WinScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WoodBullet.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/main.cpp.o | /usr/local/lib/liballegro.5.2.9.dylib /usr/local/lib/liballegro_acodec.5.2.9.dylib /usr/local/lib/liballegro_audio.5.2.9.dylib /usr/local/lib/liballegro_color.5.2.9.dylib /usr/local/lib/liballegro_dialog.5.2.9.dylib /usr/local/lib/liballegro_font.5.2.9.dylib /usr/local/lib/liballegro_image.5.2.9.dylib /usr/local/lib/liballegro_main.5.2.9.dylib /usr/local/lib/liballegro_memfile.5.2.9.dylib /usr/local/lib/liballegro_physfs.5.2.9.dylib /usr/local/lib/liballegro_primitives.5.2.9.dylib /usr/local/lib/liballegro_ttf.5.2.9.dylib /usr/local/lib/liballegro_video.5.2.9.dylib
+build 2023_Spring_I2PII_Mini_Project_2: CXX_EXECUTABLE_LINKER__2023_Spring_I2PII_Mini_Project_2_Debug CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Allegro5Exception.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/AudioHelper.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/Bullet.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/FireBullet.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/WoodBullet.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Collider.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/DirtyEffect.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ExplosionEffect.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ShootEffect.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceEnemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceTwoEnemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/Enemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/RedNormalEnemy.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/GameEngine.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Group.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IControl.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/IObject.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Image.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/ImageButton.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/LOG.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Label.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Point.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Resources.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/IScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/LoseScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/PlayScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/SettingScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StageSelectScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StartScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/WinScene.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Slider.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Sprite.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/DoubleMachineGun.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/MachineGun.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Plane.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/PlugGunTurret.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Turret.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/TurretButton.cpp.o CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/main.cpp.o | /usr/local/lib/liballegro.5.2.9.dylib /usr/local/lib/liballegro_acodec.5.2.9.dylib /usr/local/lib/liballegro_audio.5.2.9.dylib /usr/local/lib/liballegro_color.5.2.9.dylib /usr/local/lib/liballegro_dialog.5.2.9.dylib /usr/local/lib/liballegro_font.5.2.9.dylib /usr/local/lib/liballegro_image.5.2.9.dylib /usr/local/lib/liballegro_main.5.2.9.dylib /usr/local/lib/liballegro_memfile.5.2.9.dylib /usr/local/lib/liballegro_physfs.5.2.9.dylib /usr/local/lib/liballegro_primitives.5.2.9.dylib /usr/local/lib/liballegro_ttf.5.2.9.dylib /usr/local/lib/liballegro_video.5.2.9.dylib
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/liballegro.5.2.9.dylib  /usr/local/lib/liballegro_acodec.5.2.9.dylib  /usr/local/lib/liballegro_audio.5.2.9.dylib  /usr/local/lib/liballegro_color.5.2.9.dylib  /usr/local/lib/liballegro_dialog.5.2.9.dylib  /usr/local/lib/liballegro_font.5.2.9.dylib  /usr/local/lib/liballegro_image.5.2.9.dylib  /usr/local/lib/liballegro_main.5.2.9.dylib  /usr/local/lib/liballegro_memfile.5.2.9.dylib  /usr/local/lib/liballegro_physfs.5.2.9.dylib  /usr/local/lib/liballegro_primitives.5.2.9.dylib  /usr/local/lib/liballegro_ttf.5.2.9.dylib  /usr/local/lib/liballegro_video.5.2.9.dylib
   OBJECT_DIR = CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir

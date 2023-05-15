@@ -7,9 +7,14 @@ file (GLOB
         TD_SRC
         CONFIGURE_DEPENDS
         "src/*.cpp"
+        "src/Bullet/*.cpp"
+        "src/Effect/*.cpp"
+        "src/Enemy/*.cpp"
+        "src/Scene/*.cpp"
+        "src/Turret/*.cpp"
 )
 
-add_executable(2023_Spring_I2PII_Mini_Project_2 ${TD_SRC} include/SettingScene.hpp src/SettingScene.cpp include/DiceEnemy.hpp src/DiceEnemy.cpp include/MachineGun.hpp src/MachineGun.cpp src/FireBullet.cpp include/FireBullet.hpp src/ShootEffect.cpp include/ShootEffect.hpp include/DiceTwoEnemy.hpp src/DiceTwoEnemy.cpp)
+add_executable(2023_Spring_I2PII_Mini_Project_2 ${TD_SRC})
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories("/usr/local/include")
 link_directories("/usr/local/lib")

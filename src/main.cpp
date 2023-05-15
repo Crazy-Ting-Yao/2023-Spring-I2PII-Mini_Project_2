@@ -4,12 +4,12 @@
 // Returns program exit code.
 #include "include/GameEngine.hpp"
 #include "include/LOG.hpp"
-#include "include/LoseScene.hpp"
-#include "include/PlayScene.hpp"
-#include "include/StartScene.hpp"
-#include "include/StageSelectScene.hpp"
-#include "include/WinScene.hpp"
-#include "include/SettingScene.hpp"
+#include "include/Scene/LoseScene.hpp"
+#include "include/Scene/PlayScene.hpp"
+#include "include/Scene/StartScene.hpp"
+#include "include/Scene/StageSelectScene.hpp"
+#include "include/Scene/WinScene.hpp"
+#include "include/Scene/SettingScene.hpp"
 
 int main(int argc, char **argv) {
     Engine::LOG::SetConfig(true);
