@@ -13,7 +13,6 @@ class Turret: public Engine::Sprite {
 protected:
     int price;
     float coolDown;
-    float reload = 0;
     float rotateRadian = 2 * ALLEGRO_PI;
     Sprite imgBase;
     std::list<Turret*>::iterator lockedTurretIterator;
@@ -22,6 +21,7 @@ protected:
     virtual void CreateBullet() = 0;
     unsigned int Id;
 public:
+    float reload = 0;
     bool Enabled = true;
     bool Preview = false;
     Enemy* Target = nullptr;

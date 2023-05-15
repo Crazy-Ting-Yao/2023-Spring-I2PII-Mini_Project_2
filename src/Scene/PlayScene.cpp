@@ -21,6 +21,7 @@
 #include "include/Turret/MachineGun.hpp"
 #include "include/Turret/DoubleMachineGun.hpp"
 #include "include/Turret/Plane.hpp"
+#include "include/Turret/OrbitTurret.hpp"
 // Enemy
 #include "include/Enemy/RedNormalEnemy.hpp"
 #include "include/Scene/PlayScene.hpp"
@@ -397,6 +398,7 @@ void PlayScene::ConstructUI() {
 	// Buttons
 	ConstructButton(0, "play/turret-6.png", PlugGunTurret::Price);
     ConstructButton(1, "play/turret-1.png", MachineGun::Price);
+    ConstructButton(2, "play/turret-4.png", OrbitTurret::Price);
 	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;
 	int h = Engine::GameEngine::GetInstance().GetScreenSize().y;
 	int shift = 135 + 25;
@@ -426,6 +428,8 @@ void PlayScene::UIBtnClicked(int id) {
 	// TODO 3 (4/5): On the new turret button callback, create the new turret.
     else if (id == 1 && money >= MachineGun::Price)
         preview = new MachineGun(0, 0);
+    else if (id == 2 && money >= OrbitTurret::Price)
+        preview = new OrbitTurret(0, 0);
 	if (!preview)
 		return;
 	preview->Position = Engine::GameEngine::GetInstance().GetMousePosition();

@@ -32,6 +32,7 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2
 set(OLD_GLOB
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/Bullet.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/FireBullet.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/OrbitBullet.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Bullet/WoodBullet.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -85,6 +86,7 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2
 set(OLD_GLOB
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/DoubleMachineGun.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/MachineGun.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/OrbitTurret.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/Plane.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/PlugGunTurret.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Turret/Turret.cpp"
