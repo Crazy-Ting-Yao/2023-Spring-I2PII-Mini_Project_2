@@ -21,87 +21,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf23c352-09e8-412d-8972-fe8576832755" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/include/Turret/DoubleMachineGun.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enemy/DiceEnemy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enemy/DiceTwoEnemy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Turret/DoubleMachineGun.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Shifter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Shovel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/ToolsButton.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/play/shifter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shifter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shovel.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToolsButton.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base.lproj/Main.storyboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Base.lproj/Main.storyboard.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-46816c7c7ccb3c42eb30.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-14T08-23-10-0402.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2023_Spring_I2PII_Mini_Project_2-Debug-0c70e285e4518fbd0a31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2770389075fc6255c4c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-15T15-17-54-0726.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2023_Spring_I2PII_Mini_Project_2-Debug-672540e16328dcbea9ad.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2023_Spring_I2PII_Mini_Project_2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2023_Spring_I2PII_Mini_Project_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceEnemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceEnemy.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceTwoEnemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/DiceTwoEnemy.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/FireBullet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/FireBullet.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/GameEngine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/GameEngine.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Group.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Group.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/MachineGun.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/MachineGun.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Plane.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Plane.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlayScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlayScene.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlugGunTurret.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/PlugGunTurret.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/RedNormalEnemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/RedNormalEnemy.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WoodBullet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/WoodBullet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/Bullet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/Bullet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/FireBullet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/FireBullet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/OrbitBullet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/OrbitBullet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/WoodBullet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Bullet/WoodBullet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/DirtyEffect.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/DirtyEffect.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ExplosionEffect.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ExplosionEffect.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ShootEffect.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Effect/ShootEffect.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceTwoEnemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/DiceTwoEnemy.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/Enemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Enemy/Enemy.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/PlayScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/PlayScene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StageSelectScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/StageSelectScene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/WinScene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Scene/WinScene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/DoubleMachineGun.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/DoubleMachineGun.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/MachineGun.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/MachineGun.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/OrbitTurret.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/OrbitTurret.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Plane.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Plane.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/PlugGunTurret.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/PlugGunTurret.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Turret.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/Turret.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/TurretButton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/Turret/TurretButton.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2023_Spring_I2PII_Mini_Project_2.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Bullet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bullet/Bullet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/DiceEnemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Enemy/DiceEnemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/DiceTwoEnemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Enemy/DiceTwoEnemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/DirtyEffect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Effect/DirtyEffect.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Enemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Enemy/Enemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ExplosionEffect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Effect/ExplosionEffect.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/FireBullet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bullet/FireBullet.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Group.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Group.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/IScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/IScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/LoseScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/LoseScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/MachineGun.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/MachineGun.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Plane.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/Plane.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/PlayScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/PlayScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/PlugGunTurret.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/PlugGunTurret.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/RedNormalEnemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Enemy/RedNormalEnemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Resources.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Resources.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/SettingScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/SettingScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ShootEffect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Effect/ShootEffect.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/StageSelectScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/StageSelectScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/StartScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/StartScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Turret.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/Turret.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/TurretButton.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/TurretButton.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/WinScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/WinScene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/WoodBullet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bullet/WoodBullet.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Bullet/OrbitBullet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bullet/OrbitBullet.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Scene/PlayScene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Scene/PlayScene.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Turret/OrbitTurret.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/Turret/OrbitTurret.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/enemy1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/enemy1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bullet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet/Bullet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiceEnemy.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiceTwoEnemy.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirtyEffect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Effect/DirtyEffect.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy/Enemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExplosionEffect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Effect/ExplosionEffect.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FireBullet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet/FireBullet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Group.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Group.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/IScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoseScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/LoseScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MachineGun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/MachineGun.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/Plane.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/PlayScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugGunTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/PlugGunTurret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RedNormalEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy/RedNormalEnemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SettingScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/SettingScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShootEffect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Effect/ShootEffect.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StageSelectScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/StageSelectScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/StartScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/Turret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TurretButton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/TurretButton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WinScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/WinScene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WoodBullet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet/WoodBullet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/enemy2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/enemy2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/enemy3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/enemy3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/play/shovel.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/play/shovel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bullet/OrbitBullet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bullet/OrbitBullet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scene/PlayScene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scene/PlayScene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Turret/OrbitTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turret/OrbitTurret.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,19 +134,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Turret" />
+      <recent name="$PROJECT_DIR$/include" />
       <recent name="$PROJECT_DIR$/include/Scene" />
       <recent name="$PROJECT_DIR$/include/Turret" />
-      <recent name="$PROJECT_DIR$/include/Bullet" />
-      <recent name="$PROJECT_DIR$/include/Effect" />
-      <recent name="$PROJECT_DIR$/include/Enemy" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="2023_Spring_I2PII_Mini_Project_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2023_Spring_I2PII_Mini_Project_2" TARGET_NAME="2023_Spring_I2PII_Mini_Project_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2023_Spring_I2PII_Mini_Project_2" RUN_TARGET_NAME="2023_Spring_I2PII_Mini_Project_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -216,6 +180,14 @@
       <workItem from="1684068734621" duration="3442000" />
       <workItem from="1684114359942" duration="7000" />
       <workItem from="1684128027461" duration="12222000" />
+      <workItem from="1684154899926" duration="8742000" />
+      <workItem from="1684194901373" duration="593000" />
+      <workItem from="1684233395157" duration="4637000" />
+      <workItem from="1684238046430" duration="230000" />
+      <workItem from="1684238423418" duration="5984000" />
+      <workItem from="1684245419228" duration="384000" />
+      <workItem from="1684245925193" duration="4051000" />
+      <workItem from="1684250000401" duration="848000" />
     </task>
     <servers />
   </component>

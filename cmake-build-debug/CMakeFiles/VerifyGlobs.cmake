@@ -18,8 +18,11 @@ set(OLD_GLOB
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Label.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Point.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Resources.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Shifter.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Shovel.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Slider.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Sprite.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/ToolsButton.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

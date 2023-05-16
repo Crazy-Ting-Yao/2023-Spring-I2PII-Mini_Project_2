@@ -14,7 +14,7 @@ file (GLOB
         "src/Turret/*.cpp"
 )
 
-add_executable(2023_Spring_I2PII_Mini_Project_2 ${TD_SRC} src/Bullet/OrbitBullet.cpp include/Bullet/OrbitBullet.hpp src/Turret/OrbitTurret.cpp include/Turret/OrbitTurret.hpp)
+add_executable(2023_Spring_I2PII_Mini_Project_2 ${TD_SRC} src/ToolsButton.cpp include/ToolsButton.hpp include/Shovel.hpp src/Shovel.cpp include/Shifter.hpp src/Shifter.cpp)
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories("/usr/local/include")
 link_directories("/usr/local/lib")

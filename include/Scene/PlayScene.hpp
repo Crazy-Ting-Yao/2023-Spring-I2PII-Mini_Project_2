@@ -9,7 +9,8 @@
 
 #include "include/Scene/IScene.hpp"
 #include "../Point.hpp"
-
+#include "../Shovel.hpp"
+#include "../Shifter.hpp"
 class Turret;
 namespace Engine {
 	class Group;
@@ -17,6 +18,13 @@ namespace Engine {
 	class Label;
 	class Sprite;
 }  // namespace Engine
+
+typedef struct {
+    int mode;
+    Turret* turret_preview;
+    Shovel* shovel_preview;
+    Shifter* shifter_preview;
+}Preview;
 
 class PlayScene final : public Engine::IScene {
 private:
@@ -58,7 +66,7 @@ public:
 	Engine::Label* UILives;
 	Engine::Image* imgTarget;
 	Engine::Sprite* dangerIndicator;
-	Turret* preview;
+	Preview preview;
 	std::vector<std::vector<TileType>> mapState;
 	std::vector<std::vector<int>> mapDistance;
     std::vector<std::vector<Turret*>> Turrets;
@@ -80,7 +88,8 @@ public:
 	void ReadMap();
 	void ReadEnemyWave();
 	void ConstructUI();
-	void ConstructButton(int id, std::string sprite, int price);
+	void ConstructTurretButton(int id, std::string sprite, int price);
+    void ConstructToolsButton(int id, std::string sprite);
 	void UIBtnClicked(int id);
 	bool CheckSpaceValid(int x, int y);
 	std::vector<std::vector<int>> CalculateBFSDistance();
