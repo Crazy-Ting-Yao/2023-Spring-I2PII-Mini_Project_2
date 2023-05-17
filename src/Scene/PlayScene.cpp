@@ -35,6 +35,10 @@
 #include "include/LOG.hpp"
 #include "include/Enemy/DiceEnemy.hpp"
 #include "include/Enemy/DiceTwoEnemy.hpp"
+#include "include/Enemy/DiceThreeEnemy.hpp"
+#include "include/Enemy/DiceFourEnemy.hpp"
+#include "include/Enemy/DiceFiveEnemy.hpp"
+#include "include/Enemy/DiceSixEnemy.hpp"
 
 bool PlayScene::DebugMode = false;
 const std::vector<Engine::Point> PlayScene::directions = { Engine::Point(-1, 0), Engine::Point(0, -1), Engine::Point(1, 0), Engine::Point(0, 1) };
@@ -165,6 +169,18 @@ void PlayScene::Update(float deltaTime) {
                 break;
             case 3:
                 EnemyGroup->AddNewObject(enemy = new DiceTwoEnemy(SpawnCoordinate.x, SpawnCoordinate.y));
+                break;
+            case 4:
+                EnemyGroup->AddNewObject(enemy = new DiceThreeEnemy(SpawnCoordinate.x, SpawnCoordinate.y));
+                break;
+            case 5:
+                EnemyGroup->AddNewObject(enemy = new DiceFourEnemy(SpawnCoordinate.x, SpawnCoordinate.y));
+                break;
+            case 6:
+                EnemyGroup->AddNewObject(enemy = new DiceFiveEnemy(SpawnCoordinate.x, SpawnCoordinate.y));
+                break;
+            case 7:
+                EnemyGroup->AddNewObject(enemy = new DiceSixEnemy(SpawnCoordinate.x, SpawnCoordinate.y));
                 break;
                 // The format is "[EnemyId] [TimeDelay] [Repeat]".
                 // TODO 2 (3/3): Enable the creation of the new enemy.
@@ -393,6 +409,18 @@ void PlayScene::OnKeyDown(int keyCode) {
         UIBtnClicked(1);
         // Hotkey for new turret.
     }
+    else if (keyCode == ALLEGRO_KEY_E) {
+        UIBtnClicked(2);
+        // Hotkey for new turret.
+    }
+    else if (keyCode == ALLEGRO_KEY_A) {
+        UIBtnClicked(7);
+        // Hotkey for new turret.
+    }
+    else if (keyCode == ALLEGRO_KEY_S) {
+        UIBtnClicked(8);
+        // Hotkey for new turret.
+    }
     else if (keyCode >= ALLEGRO_KEY_0 && keyCode <= ALLEGRO_KEY_9) {
         // Hotkey for Speed up.
         SpeedMult = keyCode - ALLEGRO_KEY_0;
@@ -549,7 +577,7 @@ void PlayScene::UIBtnClicked(int id) {
             preview.turret_preview = new MachineGun(0, 0);
             preview.mode = 1;
         }
-        else if (id == 2){
+        else if (id == 2 && money >= OrbitTurret::Price){
             preview.turret_preview = new OrbitTurret(0, 0);
             preview.mode = 1;
         }
@@ -569,6 +597,8 @@ void PlayScene::UIBtnClicked(int id) {
             preview.turret_preview = new DoubleMachineGun(0, 0);
             preview.mode = 4;
         }
+        if(!preview.mode)
+            return;
         preview.turret_preview->Position = Engine::GameEngine::GetInstance().GetMousePosition();
         preview.turret_preview->Tint = al_map_rgba(255, 255, 255, 200);
         preview.turret_preview->Enabled = false;

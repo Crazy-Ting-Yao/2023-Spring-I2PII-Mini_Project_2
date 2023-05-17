@@ -13,7 +13,7 @@
 class Turret;
 
 FireBullet::FireBullet(Engine::Point position, Engine::Point forwardDirection, float rotation, Turret* parent) :
-        Bullet("play/bullet-1.png", 500, 2, position, forwardDirection, rotation - ALLEGRO_PI / 2, parent) {
+        Bullet("play/bullet-1.png", 600, 2, position, forwardDirection, rotation - ALLEGRO_PI / 2, parent) {
     // TODO 3 (2/5): You can imitate the 2 files: 'WoodBullet.hpp', 'WoodBullet.cpp' to create a new bullet.
 }
 void FireBullet::OnExplode(Enemy* enemy) {

@@ -10,7 +10,7 @@
 #include "include/Point.hpp"
 #include "include/Effect/ShootEffect.hpp"
 
-const int PlugGunTurret::Price = 40;
+const int PlugGunTurret::Price = 30;
 PlugGunTurret::PlugGunTurret(float x, float y) :
     // TODO 3 (1/5): You can imitate the 2 files: 'PlugGunTurret.hpp', 'PlugGunTurret.cpp' to create a new turret.
     Turret("play/tower-base.png", "play/turret-6.png", x, y, 200, Price, 1.5, 0) {

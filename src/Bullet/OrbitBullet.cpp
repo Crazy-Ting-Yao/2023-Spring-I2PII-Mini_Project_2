@@ -13,8 +13,9 @@
 class Turret;
 
 OrbitBullet::OrbitBullet(Engine::Point position, Engine::Point forwardDirection, float rotation, OrbitTurret* parent , double theta, int radius) :
-        Bullet("play/bullet-8.png", 300, 2, position, forwardDirection, rotation, parent) , theta(theta), radius(radius), Orbitparent(parent) {
+    Bullet("play/bullet-8.png", 300, 2, position, forwardDirection, rotation, parent) , theta(theta), radius(radius), Orbitparent(parent) {
 }
+
 void OrbitBullet::OnExplode(Enemy* enemy) {
     std::random_device dev;
     std::mt19937 rng(dev());

@@ -10,7 +10,7 @@
 #include "include/Point.hpp"
 #include "include/Effect/ShootEffect.hpp"
 
-const int DoubleMachineGun::Price = 50;
+const int DoubleMachineGun::Price = 100;
 DoubleMachineGun::DoubleMachineGun(float x, float y) :
         Turret("play/tower-base.png", "play/turret-2.png", x, y, 300, Price, 1.5, 9) {
     // Move center downward, since we the turret head is slightly biased upward

@@ -11,7 +11,7 @@
 
 #include "include/Effect/ShootEffect.hpp"
 
-const int OrbitTurret::Price = 50;
+const int OrbitTurret::Price = 70;
 OrbitTurret::OrbitTurret(float x, float y) :
         Turret("play/tower-base.png", "play/turret-4.png", x, y, 200, Price, 1.5, 2) {
 }

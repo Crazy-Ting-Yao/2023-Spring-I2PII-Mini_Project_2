@@ -198,7 +198,11 @@
 				40,
 				41,
 				42,
-				43
+				43,
+				44,
+				45,
+				46,
+				47
 			]
 		}
 	],
@@ -343,16 +347,24 @@
 				40,
 				41,
 				42,
-				43
+				43,
+				44,
+				45,
+				46,
+				47
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				44,
-				45,
-				46
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54
 			]
 		}
 	],
@@ -422,6 +434,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/Enemy/DiceEnemy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Enemy/DiceFiveEnemy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Enemy/DiceFourEnemy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Enemy/DiceSixEnemy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Enemy/DiceThreeEnemy.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -635,6 +671,26 @@
 		{
 			"backtrace" : 1,
 			"path" : "include/Shifter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Enemy/DiceThreeEnemy.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Enemy/DiceFourEnemy.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Enemy/DiceFiveEnemy.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Enemy/DiceSixEnemy.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

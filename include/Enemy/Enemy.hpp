@@ -17,6 +17,7 @@ protected:
 	float speed;
 	float maxSpeed;
 	float hp;
+    float maxHp;
 	float slowRemainTime;
 	int money;
 	PlayScene* getPlayScene();

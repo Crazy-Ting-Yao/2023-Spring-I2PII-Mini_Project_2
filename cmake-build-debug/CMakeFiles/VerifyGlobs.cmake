@@ -59,6 +59,10 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/*.cpp")
 set(OLD_GLOB
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceEnemy.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceFiveEnemy.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceFourEnemy.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceSixEnemy.cpp"
+  "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceThreeEnemy.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/DiceTwoEnemy.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/Enemy.cpp"
   "/Users/crazytingyao/Documents/GitHub/2023-Spring-I2PII-Mini_Project_2/src/Enemy/RedNormalEnemy.cpp"

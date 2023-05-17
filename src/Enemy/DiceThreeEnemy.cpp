@@ -5,23 +5,27 @@
 #include <string>
 #include <vector>
 
-#include "include/Enemy/DiceTwoEnemy.hpp"
+#include "include/Enemy/DiceThreeEnemy.hpp"
 #include "include/Effect/DirtyEffect.hpp"
 #include "include/AudioHelper.hpp"
 #include "include/Turret/Turret.hpp"
 #include "include/Bullet/Bullet.hpp"
 #include "include/Scene/PlayScene.hpp"
-#include "include/Enemy/DiceEnemy.hpp"
+#include "include/Enemy/DiceTwoEnemy.hpp"
 #include "include/Group.hpp"
 #include "include/IObject.hpp"
 #include "include/Effect/ExplosionEffect.hpp"
 #include "include/LOG.hpp"
-DiceTwoEnemy::DiceTwoEnemy(int x, int y) : Enemy("play/dice-2.png", x, y, 25, 70, 100, 5, 3) {
+DiceThreeEnemy::DiceThreeEnemy(int x, int y) : Enemy("play/dice-3.png", x, y, 25, 40, 200, 10, 3) {
 
 }
-void DiceTwoEnemy::OnExplode(){
+void DiceThreeEnemy::OnExplode(){
     Enemy* enemy;
-    getPlayScene()->EnemyGroup->AddNewObject(enemy = new DiceEnemy(Position.x, Position.y));
+    getPlayScene()->EnemyGroup->AddNewObject(enemy = new DiceTwoEnemy(Position.x, Position.y));
+    enemy->UpdatePath(getPlayScene()->mapDistance);
+    // Compensate the time lost.
+    enemy->Update(0);
+    getPlayScene()->EnemyGroup->AddNewObject(enemy = new DiceTwoEnemy(Position.x, Position.y));
     enemy->UpdatePath(getPlayScene()->mapDistance);
     // Compensate the time lost.
     enemy->Update(0);

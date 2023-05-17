@@ -4,6 +4,6 @@
 
 class DiceEnemy : public Enemy {
 public:
-    DiceEnemy(int x, int y, bool invincible = false, float invincibleTime = 0);
+    DiceEnemy(int x, int y);
 };
 #endif // DICEENEMY_HPP
