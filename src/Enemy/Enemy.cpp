@@ -126,8 +126,8 @@ void Enemy::Update(float deltaTime) {
 }
 void Enemy::Draw() const {
 	Sprite::Draw();
-    al_draw_rectangle(Position.x - 20, Position.y + 20, Position.x + 20, Position.y + 15, al_map_rgb(255, 255, 255), 2);
-    al_draw_filled_rectangle(Position.x - 20, Position.y + 19, Position.x - 20 + 40*(hp/maxHp), Position.y + 16, al_map_rgb(255, 0, 0));
+    al_draw_rectangle(Position.x - 20, Position.y + 20, Position.x + 20, Position.y + 10, al_map_rgb(255, 255, 255), 2);
+    al_draw_filled_rectangle(Position.x - 20, Position.y + 19, Position.x - 20 + 40*(hp/maxHp), Position.y + 11, al_map_rgb(255, 0, 0));
 	if (PlayScene::DebugMode) {
 		// Draw collision radius.
 		al_draw_circle(Position.x, Position.y, CollisionRadius, al_map_rgb(255, 0, 0), 2);
